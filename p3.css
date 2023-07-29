@@ -1,0 +1,89 @@
+*{
+    /* margin: 2px;
+    padding: 2px; */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    text-transform: uppercase;
+    color:white;
+    boder: red 2px solid;
+    background-image: url("https://www.freecodecamp.org/news/content/images/2021/10/ferenc-almasi-NzERTNpnaDw-unsplash.jpg");
+
+}
+.header{
+    align-items: right;
+    margin: 0px 20px 0px 300px;
+    /* margin-left: 2rem; */
+    
+}
+.header ul li{
+    display: inline-block;
+    max-width: 23rem;
+    padding: 20px 30px;
+    position: relative;
+    left: 150px;
+    /* margin:auto; */
+    color:red;
+}
+.header ul li{
+    list-style-type: none;
+}
+header{
+    background: white;
+    width: 800px;
+}
+.mango{
+    text-decoration: none;
+    color:aqua
+}
+section,article,aside{
+    width:30%;
+    float: left;
+
+}
+@media(max-width:600px){
+    section,article,aside{
+        width:100%;
+        height:auto;
+    }
+}
+
+#fruits{
+    text-decoration: none;
+    color:red;
+}
+
+#a1:hover{
+    background-color: red;
+    color:greenyellow;
+    width:85px;
+}
+#p1:hover{
+    background-color: red;
+    color:greenyellow;
+    width:85px;
+}
+#l1:hover{
+    background-color: red;
+    color:greenyellow;
+    width:85px;
+}
+.l1,.l2,.l3{
+    border-color: red;
+    border-style: dotted;
+    border-radius: 5px;
+    /* border:red 2px solid;  */
+    
+    
+}
+.l3{
+    color:yellow;
+    font-weight: bold;
+}
+#f1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
