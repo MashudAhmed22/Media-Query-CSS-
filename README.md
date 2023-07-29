@@ -1,2 +1,2 @@
 # Media-Query-CSS-
-Created List using HTML,CSS  
+Created List by using HTML,CSS  
